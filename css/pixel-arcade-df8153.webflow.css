@@ -1853,8 +1853,8 @@ body.custom-background {
 
 .custom-scrollable-content {
     max-height: 400px; /* Adjust the height as needed */
-    width: 80%; /* Adjust the width as needed */
-    margin: auto;
+    width: 90%; /* Set the width to 90% of the page */
+    margin: auto; /* Center the scroll box */
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 10px;
     border: 2px solid rgba(204, 204, 204, 0.5); /* Border with transparency */
@@ -1892,15 +1892,14 @@ body.custom-background {
 .custom-paragraph {
     margin-bottom: 15px; /* Adds space between paragraphs */
     line-height: 1.6; /* Improves readability */
-    color: #fff;
-    font-size: 16px; /* Text color set to white */
+    color: #fff; /* Text color set to white */
 }
 
 /* Heading and subheading styles */
 .custom-paragraph strong {
     color: rgb(219, 21, 21); /* Sets the text color of strong elements to blue */
     font-weight: 900;
-    font-size: 20px;
+    font-size: 20px;/* Sets the text color of strong elements to blue */
 }
 
 .custom-image-container {
@@ -1925,5 +1924,4 @@ body.custom-background {
 .custom-scrollable-content {
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-
 
