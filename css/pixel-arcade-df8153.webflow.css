@@ -538,7 +538,7 @@ body.custom-background {
 
 .section-6 {
     background-image: url('../images/rewards-bg.webp');
-    background-position: 50%;
+    background-position: 80%;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: scroll;
@@ -1483,7 +1483,7 @@ body.custom-background {
         grid-row-gap: 0px;
     }
     .section-6 {
-        margin-top: 10px;
+        margin-top: 850px;
     }
     .image-7,
     .cell-3 {
