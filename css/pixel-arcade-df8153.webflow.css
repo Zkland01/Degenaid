@@ -1761,7 +1761,7 @@ body.custom-background {
 #w-node-_1aac63de-99a8-d2fc-3205-c8e0ad775a2b-68be4839,
 #w-node-_183a83b9-fb56-4ac5-c364-bc874ab5b275-68be4839 {
     grid-template-rows: auto auto;
-    grid-template-columns: .7fr;
+    grid-template-columns: 1fr;
 }
 
 #w-node-_48aa42b0-a9b0-de62-43d7-01efdb83c54d-db83c533,
