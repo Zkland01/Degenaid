@@ -37,73 +37,29 @@
 </head>
 
 <body class="body custom-background">
-    <section class="section-1">
-        <div data-animation="default" data-collapse="medium" data-duration="600" data-easing="ease-out-expo" data-easing2="ease-out-expo" role="banner" class="main-menu-with-mobile w-nav">
-            <div class="nav-block">
-                <div class="header-middle">
-                    <div class="" >
-                    <img src="images/main.png" style="width: 40px;  margin: auto;" loading="lazy" alt="" class="image-19">
-                </div>
-                    <nav role="navigation" class="header-nav-menu-wrapper w-nav-menu">
-                        <ul role="list" class="header-nav-menu-list-2">
-                            <li class="header-nav-list-item middle">
-                                <style>
-                                    @font-face {
-                                        font-family: head;
-                                        src: url(head.ttf);
-                                    }
-                                    @font-face {
-                                        font-family: texts;
-                                        src: url(text.ttf);
-                                    }
-                                </style>
-                                <a href="https://www.chinesemario.com/index.html" aria-current="page" style="font-family: head;" class="header-nav-link-2 w-nav-link w--current">HOME</a>
-                            </li>
-                        
-                            <li class="header-nav-list-item middle">
-                                <a href="index.html#aboutt" target="_blank" class="header-nav-link-2 w-nav-link" style="font-family: head;" >ABOUT</a>
-                            </li>
-                            <li class="header-nav-list-item middle">
-                                <a href="index.html#tokenomics" class="header-nav-link-2 w-nav-link" style="font-family: head;" >TOKENOMICS</a>
-                            </li>
-                        
-                         
-                           
-                            <li class="header-nav-list-item show-in-tablet">
-                                <div class="button-4">
-                                    <div id="w-node-_48aa42b0-a9b0-de62-43d7-01efdb83c54d-db83c533" class="w-layout-layout quick-stack-11 wf-layout-layout">
-                                        <div class="w-layout-cell">
-                                            <a href="https://t.me/degenaid" class="link-block-4 w-inline-block">
-                                                <div class="text-block-4" style="font-family: head;" >COMMUNITY</div>
-                                            </a>
-                                        </div>
-                                        <div class="w-layout-cell"><img src="../uploads-ssl.webflow.com/66292f5a036f4786c41936d2/662932b041fb89f8db47cb2d_Vectors-Wrapper.svg" loading="lazy" alt="" class="image-18"></div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="button-2 mobile header">
-                    <div id="w-node-_48aa42b0-a9b0-de62-43d7-01efdb83c558-db83c533" class="w-layout-layout quick-stack-3 wf-layout-layout">
-                        <div class="w-layout-cell">
-                            <a href="https://t.me/degenaid" class="link-block-3 w-inline-block">
-                                <div class="text-block-3" style="font-family: head;">TELEGRAM</div>
-                            </a>
-                        </div>
-                        <div class="w-layout-cell"><img src="images/Vectors-Wrapper.svg" loading="lazy" width="28" alt="" class="image-2"></div>
-                    </div>
-                </div>
-                <!-- <div class="header-right-side">
-                    <div class="hamburger-menu-wrapper w-nav-button">
-                        <div class="hamburger-menu-bar top"></div>
-                        <div class="hamburger-menu-bar bottom"></div>
-                    </div>
-                </div> -->
-            </div>
+    <nav class="navbar">
+        <img src="images/main.png" alt="Logo">
+        <ul>
+            <li><a href="https://www.chinesemario.com/index.html">HOME</a></li>
+            <li><a href="index.html#aboutt" target="_blank">ABOUT</a></li>
+            <li><a href="index.html#tokenomics">TOKENOMICS</a></li>
+            <li><a href="https://t.me/degenaid">COMMUNITY</a></li>
+        </ul>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-    </section>
-    <section id="HOME-HERO" class="section-2" >
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar ul');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+    <section id="HOME-HERO" class="section-2" style="" >
         <div style="display: flex; justify-content: center; align-items: center;">
   <img src="images/hero-logo.png" class="move pulse" alt="">
 </div>
@@ -137,7 +93,7 @@
     }
 </style>
     </section>
-    <section class="section-3">
+    <!-- <section class="section-3">
         <div class="div-block-3">
             <div data-w-id="0e685ba2-2206-ed33-0ff2-eeb487655c1b" class="pac-and-socials">
                 <div class="clients"><img src="images/main7.gif" loading="eager" alt="" class="logo-client ghost-red"><img src="images/main6.gif" loading="eager" alt="" class="logo-client ghostblue"><img src="images/run.gif" loading="eager" alt="" class="logo-client dot">
@@ -160,7 +116,7 @@
                         src="images/play-earn-blue.svg" loading="eager" alt="" class="logo-client"><img src="images/play-earn-purple.svg" loading="eager" alt="" class="logo-client"><img src="images/play-earn-red.svg" loading="eager" alt="" class="logo-client"></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="section-4---gif">
         <div class="div-block-5"><img src="images/pixel-gif.gif" loading="lazy" alt="" class="image-5"></div>
     </section>
@@ -169,7 +125,7 @@
             <div id="w-node-e2dcc647-b25a-eb5f-9eb9-8f4bb34faeb3-68be4839" class="w-layout-layout quick-stack-4 wf-layout-layout">
                 <div id="w-node-_310d7b5d-bef6-96bf-c2ec-50e83bf296d0-68be4839" class="w-layout-cell cell">
                     <div class="div-block-6">
-                        <h1 class="heading" style="font-family: head; font-size: 40px;" id="aboutt">WELCOME TO DEGEN AID</h1>
+                        <h1 class="heading-2" style="font-family: head; font-size: 40px;" id="aboutt">WELCOME TO DEGEN AID</h1>
                         
                         <p class="paragraph" style="font-family: texts;">
                             In the high-stakes world of crypto trading, fortunes can be made and lost in the blink of an eye. The allure of quick gains attracts many, but for some, the journey ends in devastating losses.
@@ -178,7 +134,7 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
                         </p>
                     
                         <div id="w-node-_4861e8a5-8605-317f-3456-3b2be62c173d-68be4839" class="w-layout-layout quick-stack-5 wf-layout-layout">
-                            <div id="w-node-_4861e8a5-8605-317f-3456-3b2be62c173e-68be4839" class="w-layout-cell"><img src="images/main.png" loading="lazy" alt="" class="image-7"></div>
+                            <div id="w-node-_4861e8a5-8605-317f-3456-3b2be62c173e-68be4839" class="w-layout-cell"><img src="images/main1.webp" loading="lazy" alt="" class="image-7"></div>
                             <div id="w-node-_4861e8a5-8605-317f-3456-3b2be62c173f-68be4839" class="w-layout-cell cell-3">
                                 <div class="button-2 mobile telegrambtn">
                                     <div id="w-node-_21a48fb7-7a77-eca6-137a-395e0c5c5f55-68be4839" class="w-layout-layout quick-stack-3 wf-layout-layout">
@@ -210,7 +166,7 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
     </section>
     <section class="section-6">
         <div class="div-block-10">
-            <div id="w-node-_8c4026e2-1c1a-6636-655e-afbee3d0cbf3-68be4839" class="w-layout-layout our-games-title-description wf-layout-layout">
+            <div id="w-node-_8c4026e2-1c1-6636-655e-afbee3d0cbf3-68be4839" class="w-layout-layout our-games-title-description wf-layout-layout">
                 <div id="w-node-_8c4026e2-1c1a-6636-655e-afbee3d0cbf4-68be4839" class="w-layout-cell">
                     <h1 class="heading-2" style="font-family: head; font-size: 30px;">Why Degen Aid</h1>
                 </div>
@@ -219,9 +175,9 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
 
                 <div id="w-node-_8c4026e2-1c1a-6636-655e-afbee3d0cbf7-68be4839" class="custom-scrollable-content">
                     <div class="custom-content">
-                        <p class="custom-paragraph">
+                        <!-- <p class="custom-paragraph">
                             <strong>DegenAid</strong> is here to provide a safety net for those who need it most. Our mission is to create a supportive community where traders can find solace, resources, and financial assistance during tough times.
-                        </p>
+                        </p> -->
                         <p class="custom-paragraph">
                             John, a passionate crypto trader, started his journey in the world of cryptocurrencies during the 2017 bull run. Armed with a modest initial investment and a dream of financial freedom, he dove headfirst into trading. The early days were exhilarating; he experienced the thrill of seeing his portfolio grow rapidly. However, the volatile nature of the market soon turned against him.
                         </p>
@@ -237,24 +193,7 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
                         <p class="custom-paragraph">
                             The pressure and emotional strain of significant financial loss can lead to severe mental health issues. Some traders, unable to cope with the overwhelming despair, contemplate or even commit suicide. The crypto community on platforms like Twitter is rife with stories of traders who have faced similar hardships.
                         </p>
-                        <p class="custom-paragraph">
-                            <strong>The Importance of Community Support:</strong> "DegenAid" aims to provide financial and emotional support to traders who have hit rock bottom. By offering a fresh start and a sense of solidarity, these initiatives play a crucial role in helping individuals rebuild their lives.
-                        </p>
-                        <p class="custom-paragraph">
-                            As a crypto family, it's crucial to remember that behind every trade is a human being with dreams, fears, and emotions. By fostering a supportive and empathetic community, we can help those in distress find their footing and ensure that no one has to face their struggles alone. In the end, it's not just about the financial gains; it's about supporting each other through the highs and lows, as one united crypto family.
-                        </p>
-                        <p class="custom-paragraph">
-                            <strong>How We Help:</strong>
-                        </p>
-                        <p class="custom-paragraph">
-                            <strong>1. Financial Assistance:</strong> A significant percentage of tokens will be allocated to a charity fund dedicated to assisting traders who have experienced significant losses.
-                        </p>
-                        <p class="custom-paragraph">
-                            <strong>2. Community Support:</strong> At DegenAid, we believe in the power of community. We offer a platform where traders can share their stories, seek advice, and find emotional support from others who understand their struggles. Together, we can navigate the ups and downs of the crypto world.
-                        </p>
-                        <p class="custom-paragraph">
-                            <strong>3. Education and Resources:</strong> Knowledge is power. We'll provide educational content, tools, and resources to help traders make informed decisions and improve their trading strategies. By learning from past mistakes and staying informed, we can build a stronger, more resilient community.
-                        </p>
+
                     </div>
                    
                 </div>
@@ -265,20 +204,22 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
        
         </div>
     </section>
-    <div class="custom-image-container">
+    <!-- <div class="custom-image-container">
         <img src="images/main4.gif" alt="Degen Aid">
     </div>
-  
+   -->
     <section id="tokenomics" class="tokenomics-title">
         <div>
-            <div class="div-block-14">
+            <div class="div-blok-14">
                 <div id="w-node-_1aac63de-99a8-d2fc-3205-c8e0ad775a2b-68be4839" class="w-layout-layout tokenomics wf-layout-layout">
                     <div id="w-node-_1aac63de-99a8-d2fc-3205-c8e0ad775a2c-68be4839" class="w-layout-cell cell-tokenomics">
-                        <h1 class="heading-2" style="font-family: head; font-size: 45px;">Tokenomics</h1>
-                    </div>
-                    <div id="w-node-_1aac63de-99a8-d2fc-3205-c8e0ad775a2f-68be4839" class="w-layout-cell">
-                        <p class="paragraph-3 tokenomics-descrip" style="font-family: texts;">COMMING SOON</p>
-                    </div>
+                        <h1 class="heading-2" style="font-family: head; font-size: 40px;" id="aboutt">The Importance of community support:</h1>
+                        
+                        <p class="paragraph" style="font-family: texts;">
+                            "DegenAid" aims to provide financial and emotional support to traders who have hit rock bottom. By offering a fresh start and a sense of solidarity, these initiatives play a crucial role in helping individuals rebuild their lives. <b></b>
+                            As a crypto family, it's crucial to remember that behind every trade is a human being with dreams, fears, and emotions. By fostering a supportive and empathetic community, we can help those in distress find their footing and ensure that no one has to face their struggles alone. In the end, it's not just about the financial gains; it's about supporting each other through the highs and lows, as one united crypto family.
+                        </p>
+                    
                 </div>
             </div>
         </div>
@@ -296,8 +237,17 @@ At DegenAid, we understand the thrill and heartbreak of crypto trading. We know 
                     <div id="w-node-_183a83b9-fb56-4ac5-c364-bc874ab5b276-68be4839" class="w-layout-cell">
                         <h1 class="heading-2" style="font-family: texts;">
                             
-                            Get ready to embark on an epic journey filled with laughter, nostalgia, and memes. Degen Aid is not just an experience; it's a celebration of internet culture and classic gaming. Whether you're exploring Meme Meadows, facing the heat in Viral Volcano, or navigating the eerie Meme Mansion, every moment promises fun and excitement.
-                           </h1>
+                            HOW IT HELPS                           </h1>
+                          
+                        <p class="custom-paragraph">
+                            <strong>1. Financial Assistance:</strong> A significant percentage of tokens will be allocated to a charity fund dedicated to assisting traders who have experienced significant losses.
+                        </p>
+                        <p class="custom-paragraph">
+                            <strong>2. Community Support:</strong> At DegenAid, we believe in the power of community. We offer a platform where traders can share their stories, seek advice, and find emotional support from others who understand their struggles. Together, we can navigate the ups and downs of the crypto world.
+                        </p>
+                        <p class="custom-paragraph">
+                            <strong>3. Education and Resources:</strong> Knowledge is power. We'll provide educational content, tools, and resources to help traders make informed decisions and improve their trading strategies. By learning from past mistakes and staying informed, we can build a stronger, more resilient community.
+                        </p>
                     </div>
                     <!-- <div id="w-node-_183a83b9-fb56-4ac5-c364-bc874ab5b279-68be4839" class="w-layout-cell">
                         <p class="paragraph-3 tokenomics-descrip yourentertainment-descrip">We want you to be rewarded for your skills while you play the games you love. Beat your opponents and earn $PIXEL every day by winning the tournaments!</p>
